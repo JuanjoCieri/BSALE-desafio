@@ -9,14 +9,17 @@
     <script src="app.js"></script>
 </head>
 <body style="background-color:#F1F0F0;">
-    <nav class="bg-red-300 h-24 shadow-lg flex items-center justify-center">
-        <h1 class="text-4xl text-gray-600">Bsale Test</h1>
+    <nav class="h-24 shadow-lg flex items-center justify-center gap-10">
+        <h1 class="text-4xl text-gray-800">Bsale Test</h1>
+        <div class="w-1/2 flex">
+            <input type="search" name="search" placeholder="Tienda" id="search" class="w-full pl-5"></input>
+            <button class="border border-black " id="btn" onclick="search()">Buscar</button>
+        </div>    
+        <img src="https://cdn-icons-png.flaticon.com/512/4175/4175270.png" alt="carrito" width="35px"/>
     </nav>
-    <section class="w-screen h-screen flex">
-        <div id="app" class="w-1/4 bg-red-400 flex flex-col"></div>
-        <div id="asd" class="w-3/4 bg-red-200 flex"></div>
+    <section class="w-full h-full flex">
+        <div id="app" class="w-1/4 bg-white flex flex-col h-screen items-center gap-10 mt-3"></div>
+        <div id="asd" class="w-3/4 h-auto flex gap-10 flex-wrap justify-center my-4"></div>
     </section>
-    <!-- <button onclick="add(1)">asd</button> -->
-    <!-- <button id="click" onclick="click()">Clickeame gil</button> -->
 </body>
 </html>
