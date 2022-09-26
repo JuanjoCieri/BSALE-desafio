@@ -25,7 +25,6 @@ function search() {
           `
         )
         .join("");
-      console.log(pro);
       document.querySelector("#asd").innerHTML =
         pro.length > 0
           ? pro
@@ -59,7 +58,6 @@ function products (id) {
           `
         )
         .join("");
-      console.log(cat);
       document.querySelector("#asd").innerHTML = pro;
     });
 }
