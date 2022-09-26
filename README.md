@@ -22,9 +22,9 @@ consuma).
  
  ## Instalación
  
- 1 - Ingresar a la carpeta BSALE-desafio-back.
- 2 - Hacer npm install para instalar las dependencias
- 3 - npm run dev para iniciar el servidor.
+ 1- Ingresar a la carpeta BSALE-desafio-back.
+ 2- Hacer npm install para instalar las dependencias.
+ 3- npm run dev para iniciar el servidor.
  
  ## Endpoints
  
