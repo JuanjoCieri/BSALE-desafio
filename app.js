@@ -1,6 +1,6 @@
 function search() {
   const value = document.querySelector("#search").value;
-  fetch("http://localhost:3000/categories/name/" + value.toUpperCase())
+  fetch("https://bsale-desafio-back-production.up.railway.app/categories/name/" + value.toUpperCase())
     .then((response) => response.json())
     .then((cat) => {
       const pro = cat
@@ -34,7 +34,7 @@ function search() {
 }
 
 function products (id) {
-  fetch("http://localhost:3000/categories/" + id)
+  fetch("https://bsale-desafio-back-production.up.railway.app/categories/" + id)
     .then((response) => response.json())
     .then((cat) => {
       const pro = cat
@@ -64,7 +64,7 @@ function products (id) {
     });
 }
 
-fetch("http://localhost:3000/categories")
+fetch("https://bsale-desafio-back-production.up.railway.app/categories")
   .then((response) => response.json())
   .then((cat) => {
     const categories = cat
